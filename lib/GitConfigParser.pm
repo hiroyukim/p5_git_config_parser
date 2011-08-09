@@ -31,7 +31,7 @@ sub _init {
     my $self = shift;
 
     # load file
-    my $fh = $self->file->openr or die $@;
+    my $fh = $self->file->openr or die $!;
 
     my $data = {};
     my $title;
