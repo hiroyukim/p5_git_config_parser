@@ -1,0 +1,18 @@
+[alias]
+  ci = commit -v
+  co = checkout
+  br = branch
+  st = status
+  di = diff
+  df = diff --no-prefix
+  wt = whatchanged
+  new = whatchanged HEAD@{1}..HEAD --reverse
+
+[color]
+  diff = auto
+  status = auto
+  branch = auto
+  ui = always
+
+[core]
+	pager = lv -c
